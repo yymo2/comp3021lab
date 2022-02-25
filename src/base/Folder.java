@@ -29,6 +29,7 @@ public class Folder{
 		int nText = 0;
 		int nImage = 0;
 		
+		// checking
 		for (Note n : getNotes()) {
 			if (n instanceof TextNote)
 				nText++;
