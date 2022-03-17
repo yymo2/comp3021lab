@@ -2,7 +2,7 @@ package base;
 
 import java.io.File;
 
-public class ImageNote extends Note{
+public class ImageNote extends Note implements java.io.Serializable{
 	
 	private File image;
 	
