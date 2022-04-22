@@ -111,4 +111,10 @@ public class NoteBook implements java.io.Serializable{
 	    }
 	}
 
+	// lab8
+	public void addFolder(String folderName) {
+	    // TODO
+		folders.add(new Folder(folderName));	
+	}
+
 }
