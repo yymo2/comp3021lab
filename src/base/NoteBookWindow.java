@@ -414,7 +414,7 @@ public class NoteBookWindow extends Application {
 				}
 		});
 		
-		ImageView saveView = new ImageView(new Image(new File("C:/Users/brend/git/comp3021lab/src/base/save.png").toURI().toString()));
+		ImageView saveView = new ImageView(new Image(new File("../comp3021lab/src/base/"+"save.png").toURI().toString()));
 		saveView.setFitHeight(18);
 		saveView.setFitWidth(18);
 		saveView.setPreserveRatio(true);
@@ -447,7 +447,7 @@ public class NoteBookWindow extends Application {
             }
         });
 		
-		ImageView deleteView = new ImageView(new Image(new File("C:/Users/brend/git/comp3021lab/src/base/delete.jpg").toURI().toString()));
+		ImageView deleteView = new ImageView(new Image(new File("../comp3021lab/src/base/"+"delete.jpg").toURI().toString()));
 		deleteView.setFitHeight(18);
 		deleteView.setFitWidth(18);
 		deleteView.setPreserveRatio(true);
